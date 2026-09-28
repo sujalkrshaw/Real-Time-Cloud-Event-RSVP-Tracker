@@ -1,7 +1,14 @@
 from datetime import datetime,timedelta
 
 def reg(c,email):
-    return c.post("/api/auth/register",json={"name":email.split("@")[0],"email":email,"password":"Password123!"})
+    return c.post(
+        "/api/auth/register",
+        json={
+            "name": "Test User",
+            "email": email,
+            "password": "Password123!"
+        }
+)
 
 def login(c,email,password="Password123!"):
     return c.post("/api/auth/login",json={"email":email,"password":password})
