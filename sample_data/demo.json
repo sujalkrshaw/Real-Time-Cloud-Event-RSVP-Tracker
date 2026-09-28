@@ -1,0 +1,1 @@
+{"event":{"name":"Cloud Computing Workshop","capacity":100,"date":"2099-12-10","venue":"Virtual Lab"},"users":[{"email":"organizer@example.com","role":"ORGANIZER"},{"email":"alice@example.com","role":"ATTENDEE"},{"email":"bob@example.com","role":"ATTENDEE"}]}
